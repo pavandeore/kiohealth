@@ -68,7 +68,7 @@
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyuTHBaLtEIIQOtfAKgTVYMs4agXMLaxzY7K6CpXLVFaXxPy_9ms0yO/exec'
-  const form = document.forms['google-sheet']
+  const form = document.getElementById('subscribeform');
 
   form.addEventListener('submit', e => {
     e.preventDefault()
